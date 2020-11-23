@@ -2,7 +2,8 @@ import socket
 
 #Define socket host and port
 SERVER_HOST = '0.0.0.0'
-SERVER_PORT = 8000
+#SERVER_HOST = '192.168.137.108'
+SERVER_PORT = 8069
 
 #Create socket
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
